@@ -14,7 +14,10 @@ _us” → this website
 
 
 b)​ Then installed Splunk Enterprise. I installed it by running the command
+```bash
 “sudo dpkg -i splunk-10.2.3-4d61cf8a5c0c-linux-amd64.deb” & also
+```
+
 changed the ownership of the Splunk installation directory & everything
 inside it by the command “sudo chown -R tanvir13:tanvir13 /opt/splunk”.
 The commands are in the snapshot
