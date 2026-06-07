@@ -46,10 +46,12 @@ d) Then I copied the link address
 ```bash
 http://parrot:8080
 ```
-that I got from the CLI and pasted it into the Google browser. Then the address was sent to the Splunk Enterprise server interface.
+that I got from the CLI and pasted it into the Google browser.Then the address was sent to the Splunk Enterprise server interface.
+
 ![Image Description](images/splunk_on_linux_machine.png)
 
 e) Then I typed the name & password & this interface was shown in the background.
+
 ![Image Description](images/splunk_enterprise_dashboard_on_linux.png)
 
 2. Splunk Universal Forwarder Installation Process:
@@ -69,4 +71,38 @@ b) Then I downloaded an Add-on from this link for my Windows Server 2019
 to extract the Add-on file
 
 c) Then I installed the Splunk forwarder. There are some snapshots from the time of installation of the forwarder. I marked the local system in the snapshot
+
+![Image Description](images/installing_splunk_universal_forwarder_on_windows.png)
+
+Then I typed the username & password
+
+![Image Description](images/installing_splunk_universal_forwarder_on_windows1.png)
+
+Then I typed the IP address of Windows Server 2019(192.168.159.138) & default port 8089 in the Deployment Server
+
+![Image Description](images/installing_splunk_universal_forwarder_on_windows2.png)
+
+& I typed the same IP address & default port 9997 in the Receiving Indexer
+
+![Image Description](images/Screenshot_2026-06-06_20-13-54.png)
+
+This is the location of Splunk Universal Forwarder on my Windows machine.
+
+![Image Description](images/Screenshot_2026-06-06_20-14-13.png)
+
+This is the Splunk Add-on & I extracted it with 7-Zip twice & finally, I got the Splunk_TA_windows-10.0.1 folder
+
+![Image Description](images/Screenshot_2026-06-06_20-14-32.png)
+
+
+This is the inside of the Splunk_TA_windows-10.0.1 folder
+
+![Image Description](images/Screenshot_2026-06-06_20-15-02.png)
+
+Here, I placed the Splunk_TA_windows-10.0.1 folder into the Splunk Forwarder
+
+![Image Description](images/Screenshot_2026-06-06_20-15-19.png)
+
+This is an inputs.conf
+
 
