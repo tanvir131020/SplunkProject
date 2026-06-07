@@ -4,7 +4,7 @@
 Total Splunk Structure
 ![Image Description](images/splunk_structure.png)
 
-#🛠️ Splunk Setup
+🛠️ Splunk Setup
 
 
 1. Splunk Enterprise(Server) Installation Process :
