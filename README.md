@@ -104,25 +104,83 @@ This is an inputs.conf
 
 ![Image Description](images/inputs.conf.png)
 
+```bash
+[WinEventLog://Application]
+disabled = 0
+index=wineventlog
+
+[WinEventLog://Security]
+disabled = 0
+index=wineventlog
+
+[WinEventLog://System]
+disabled = 0
+index=wineventlog
+
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+disabled = 0
+index=wineventlog
+```
+
 or sometimes
 
 ![Image Description](images/or_inputs.conf.png)
+
+```bash
+[WinEventLog://Application]
+disabled = 0
+index = wineventlog
+
+[WinEventLog://Security]
+disabled = 0
+index = wineventlog
+
+[WinEventLog://System]
+disabled = 0
+index = wineventlog
+current_only = 1
+start_from = newest
+
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+disabled = 0
+index = wineventlog
+current_only = 1
+start_from = newest
+renderXml = 1
+```
 
 This is limits.conf
 
 ![Image Description](images/limits.conf.png)
 
+```bash
+[thruput]
+maxKBps = 0
+```
 
 This is deploymentclient.conf & where I typed the parrotOS(Splunk Enterprise(server)) IP(NAT) address (192.168.159.142)
 
 
 ![Image Description](images/deployment_client.conf.png)
 
+```bash
+[target-broker:deploymentServer]
+targetUri = 192.168.159.142:8089
+```
 
 This is outputs.conf & where I typed the parrotOS(Splunk Enterprise(server)) IP(NAT) address(192.168.159.142)
 
 ![Image Description](images/outputs.conf.png)
 
+```bash
+[tcpout]
+defaultGroup = default-autolb-group
+
+[tcpout:default-autolb-group]
+server = 192.168.159.142:9997
+
+[tcpout-server://192.168.159.142:9997]
+```
 
 I tested the connection between the (Windows Server 2019)Splunk Forwarder and (Parrot OS)Splunk Enterprise through the command in cmd &
 
