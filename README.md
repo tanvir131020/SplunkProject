@@ -105,4 +105,105 @@ Here, I placed the Splunk_TA_windows-10.0.1 folder into the Splunk Forwarder
 
 This is an inputs.conf
 
+![Image Description](images/inputs.conf.png)
+
+or sometimes
+
+![Image Description](images/or_inputs.conf.png)
+
+This is limits.conf
+
+![Image Description](images/limits.conf.png)
+
+
+This is deploymentclient.conf & where I typed the parrotOS(Splunk Enterprise(server)) IP(NAT) address (192.168.159.142)
+
+
+![Image Description](images/deployment_client.conf.png)
+
+
+This is outputs.conf & where I typed the parrotOS(Splunk Enterprise(server)) IP(NAT) address(192.168.159.142)
+
+![Image Description](images/outputs.conf.png)
+
+
+I tested the connection between the (Windows Server 2019)Splunk Forwarder and (Parrot OS)Splunk Enterprise through the command in cmd &
+
+
+![Image Description](images/testing_connection_between splunk server&client.png)
+
+
+powershell
+
+
+![Image Description](images/checking_connection_via_powershell.png)
+
+
+The command those are used to see the connection between the Splunk Enterprise (server) & splunk universal forwarder
+
+i) going to the Splunk forwarder directory in the command
+
+```bash
+cd "C:\Program Files\SplunkUniversalForwarder\bin"
+```
+ii) to see the Splunk forwarder status in the command
+
+```bash
+.\splunk status
+```
+
+iii) to see the services of Splunk forwarder in PowerShell
+
+```bash
+Get-Service SplunkForwarder
+```
+
+iv) to test the connection in PowerShell
+
+```bash
+Test-NetConnection -ComputerName 192.168.159.142 -port 9997
+```
+
+v) to see the Splunk forward server in the command
+
+```bash
+.\splunk list forward-server
+```
+
+3. Sysmon Installation Process:
+
+I downloaded the Sysmon from the link & extracted it
+
+“https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon” 
+
+& sysmonconfig.xml file from the link, & placed it into the extracted Sysmon folder
+
+“https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
+
+
+I installed it with the
+
+```bash
+.\Sysmon64.exe -i .\sysmonconfig.xml
+```
+
+command & checked the sysmon with the command
+
+```bash
+Get-Service -Name Sysmon64
+```
+
+& it was running
+
+
+![Image Description](images/check_sysmon.png)
+
+![Image Description](images/sysmon_on_windows.png)
+
+I also checked Sysmon through Splunk Enterprise
+
+![Image Description](images/checking_sysmon_in_splunk_enterprise(linux machine).png)
+
+4.
+
 
