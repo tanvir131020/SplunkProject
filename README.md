@@ -1,9 +1,6 @@
 🚀 A hands-on project for Splunk SIEM log analysis.
 
 
-#🛠️ Splunk Setup
-
-
 Total Splunk Structure
 ![Image Description](images/splunk_structure.png)
 
@@ -15,7 +12,7 @@ Total Splunk Structure
 a)​ First, I downloaded the .deb version for my Parrot OS from the website below
 
 
-“https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us” 
+🔗 “https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us” 
 
 
 b)​ Then installed Splunk Enterprise. I installed it by running the command
@@ -58,7 +55,7 @@ e) Then I typed the name & password & this interface was shown in the background
 
 a) I downloaded the Splunk universal forwarder .msi version for my Windows Server 2019 from this link
 
-“https://www.splunk.com/en_us/download/universal-forwarder.html”
+🔗 “https://www.splunk.com/en_us/download/universal-forwarder.html”
 
 b) Then I downloaded an Add-on from this link for my Windows Server 2019
 
@@ -66,7 +63,7 @@ b) Then I downloaded an Add-on from this link for my Windows Server 2019
 
 & I downloaded the 7-zip from this website 
 
-“https://www.7-zip.org/download.html” 
+🔗 “https://www.7-zip.org/download.html” 
 
 to extract the Add-on file
 
@@ -174,11 +171,11 @@ v) to see the Splunk forward server in the command
 
 I downloaded the Sysmon from the link & extracted it
 
-“https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon” 
+🔗 “https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon” 
 
 & sysmonconfig.xml file from the link, & placed it into the extracted Sysmon folder
 
-“https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
+🔗 “https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml”
 
 
 I installed it with the
@@ -218,11 +215,11 @@ I turned off all of the windows' security system(virus & threat protection setti
 
 Then, I downloaded the zip file of atomic-red-team-master from the link
 
-“https://github.com/redcanaryco/atomic-red-team”
+🔗 “https://github.com/redcanaryco/atomic-red-team”
 
 & the zip file of invoke-atomicredteam-master from this link
 
-“https://github.com/redcanaryco/invoke-atomicredteam” 
+🔗 “https://github.com/redcanaryco/invoke-atomicredteam” 
 
 & Then I create a folder AtomicRedTeam in the local disk(C:)
 
