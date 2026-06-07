@@ -40,5 +40,7 @@ cd /opt/splunk/bin
 ```bash
 ./splunk start
 ```
+![Image Description](images/starting_splunk_enterprise_on_linux.png)
+
 
 
