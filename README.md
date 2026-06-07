@@ -9,6 +9,7 @@ Splunk Structure
 
 #🛠️ Splunk Setup
 
+
 1. Splunk Enterprise(Server) Installation Process :
 a)​ First, I downloaded the .deb version for my Parrot OS from the below website
 
