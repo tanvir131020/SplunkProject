@@ -12,7 +12,7 @@ Splunk Structure
 
 1. Splunk Enterprise(Server) Installation Process :
 
-a)​ First, I downloaded the .deb version for my Parrot OS from the below website
+a)​ First, I downloaded the .deb version for my Parrot OS from the website below
 
 
 “https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us” 
@@ -29,3 +29,16 @@ sudo chown -R tanvir13:tanvir13 /opt/splunk.
 ```
 The commands are in the snapshot
 ![Image Description](images/installing_splunk_on_linux.png)
+
+
+c) Then I went to the directory by running the command
+```bash
+cd /opt/splunk/bin
+```
+
+& started it by running the command
+```bash
+./splunk start
+```
+
+
