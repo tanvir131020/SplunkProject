@@ -20,7 +20,7 @@ b)​ Then installed Splunk Enterprise. I installed it by running the command
 sudo dpkg -i splunk-10.2.3-4d61cf8a5c0c-linux-amd64.deb
 ```
 & also changed the ownership of the Splunk installation directory & everything
-inside it by the command 
+inside it by the command in root directory
 ```bash
 sudo chown -R tanvir13:tanvir13 /opt/splunk.
 ```
