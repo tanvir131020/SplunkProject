@@ -6,11 +6,10 @@ A hands-on project for Splunk SIEM log analysis.
 1. Splunk Enterprise(Server) Installation Process :
 
 
-a)​ First, I downloaded the .deb version for my Parrot OS from
+a)​ First, I downloaded the .deb version for my Parrot OS from the below website
 
 
-“https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en
-_us” → this website
+“https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us” 
 
 
 b)​ Then installed Splunk Enterprise. I installed it by running the command
