@@ -59,7 +59,7 @@ a) I downloaded the Splunk universal forwarder .msi version for my Windows Serve
 
 b) Then I downloaded an Add-on from this link for my Windows Server 2019
 
-“https://splunkbase.splunk.com/app/742”
+🔗 “https://splunkbase.splunk.com/app/742”
 
 & I downloaded the 7-zip from this website 
 
