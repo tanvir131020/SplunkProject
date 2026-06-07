@@ -193,7 +193,7 @@ command & checked the sysmon with the command
 Get-Service -Name Sysmon64
 ```
 
-& it was running
+& it will run
 
 
 ![Image Description](images/check_sysmon.png)
@@ -202,8 +202,86 @@ Get-Service -Name Sysmon64
 
 I also checked Sysmon through Splunk Enterprise
 
-![Image Description](images/checking_sysmon_in_splunk_enterprise(linux machine).png)
+![Image Description](images/checking_sysmon_in_splunk_enterprise(linux_machine).png)
 
-4.
+4. Showing Splunk Dashboard containing real-time logs from the Universal Forwarder Server.
+
+![Image Description](images/showing_dashborad_on_linux_machine.png)
 
 
+5. ART (Atomic Red Team) Installation process:
+
+I turned off all of the windows' security system(virus & threat protection settings)
+
+![Image Description]()
+
+
+Then, I downloaded the zip file of atomic-red-team-master from the link
+
+“https://github.com/redcanaryco/atomic-red-team”
+
+& the zip file of invoke-atomicredteam-master from this link
+
+“https://github.com/redcanaryco/invoke-atomicredteam” 
+
+& Then I create a folder AtomicRedTeam in the local disk(C:)
+
+
+![Image Description]()
+
+
+After the download, I unzipped those files & set the atomic-red-team-master folder & invoke-atomicredteam-master folder into the AtomicRedTeam folder.
+Also sets the atomics folder into the AtomicRedTeam folder.
+
+![Image Description]()
+
+
+Then, I installed the AtomicRedTeam
+
+i) 
+```bash
+powershell -exec bypass
+```
+
+ii)
+```bash
+Install-Module -Name invoke-atomicredteam,powershell-yaml -Scope CurrentUser
+```
+
+iii) 
+```bash
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+```
+
+![Image Description]()
+
+
+
+Then I test some AtomicRedTeam Attack simulation with the command
+
+i)
+
+```bash
+Invoke-AtomicTest T1016 -ShowDetailsBrief
+```
+
+ii)
+```bash
+Invoke-AtomicTest T1055 -ShowDetailsBrief
+```
+
+iii)
+```bash
+Invoke-AtomicTest T1570 -ShowDetailsBrief
+```
+
+
+iv)
+```bash
+Invoke-AtomicTest T1020 -ShowDetailsBrief
+```
+
+v)
+```bash
+Invoke-AtomicTest T1030 -ShowDetailsBrief
+```
