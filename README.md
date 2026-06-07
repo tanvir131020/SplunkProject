@@ -1,9 +1,10 @@
-# SplunkProject
+<img width="1286" height="815" alt="image" src="https://github.com/user-attachments/assets/36cb3c1b-0ca1-4c7f-be3c-c3d79a4d0191" /># SplunkProject
 A hands-on project for Splunk SIEM log analysis.
 
 
 #🚀 Splunk Setup
 ##1. Splunk Enterprise(Server) Installation Process :
+![Image Description](images/splunk_structure.png)
 
 
 a)​ First, I downloaded the .deb version for my Parrot OS from the below website
