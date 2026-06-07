@@ -122,7 +122,7 @@ disabled = 0
 index=wineventlog
 ```
 
-or sometimes
+Or if the above don't work perfectly, we have to write more things in the inputs.conf file & in that case we have to create an extra limit.conf file
 
 ![Image Description](images/or_inputs.conf.png)
 
@@ -149,7 +149,7 @@ start_from = newest
 renderXml = 1
 ```
 
-This is limits.conf
+Here are the limits.conf file after writing extra in inputs.conf
 
 ![Image Description](images/limits.conf.png)
 
