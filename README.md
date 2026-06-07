@@ -1,8 +1,8 @@
-A hands-on project for Splunk SIEM log analysis.
+🚀 A hands-on project for Splunk SIEM log analysis.
 
 
-#🚀 Splunk Setup
-##1. Splunk Enterprise(Server) Installation Process :
+#🛠️ Splunk Setup
+1. Splunk Enterprise(Server) Installation Process :
 ![Image Description](images/splunk_structure.png)
 
 
