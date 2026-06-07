@@ -7,6 +7,8 @@ A hands-on project for Splunk SIEM log analysis.
 
 
 a)​ First, I downloaded the .deb version for my Parrot OS from
+
+
 “https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en
 _us” → this website
 
