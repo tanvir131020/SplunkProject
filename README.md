@@ -27,3 +27,4 @@ inside it by the command
 sudo chown -R tanvir13:tanvir13 /opt/splunk.
 ```
 The commands are in the snapshot
+![Image Description](images/installing_splunk_on_linux.png)
