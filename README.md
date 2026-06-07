@@ -1,4 +1,3 @@
-<img width="1286" height="815" alt="image" src="https://github.com/user-attachments/assets/36cb3c1b-0ca1-4c7f-be3c-c3d79a4d0191" /># SplunkProject
 A hands-on project for Splunk SIEM log analysis.
 
 
