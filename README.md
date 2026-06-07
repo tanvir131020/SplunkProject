@@ -213,7 +213,7 @@ I also checked Sysmon through Splunk Enterprise
 
 I turned off all of the windows' security system(virus & threat protection settings)
 
-![Image Description]()
+![Image Description](images/ART_installing_on_windows.png)
 
 
 Then, I downloaded the zip file of atomic-red-team-master from the link
@@ -227,13 +227,13 @@ Then, I downloaded the zip file of atomic-red-team-master from the link
 & Then I create a folder AtomicRedTeam in the local disk(C:)
 
 
-![Image Description]()
+![Image Description](images/installing_ART.png)
 
 
 After the download, I unzipped those files & set the atomic-red-team-master folder & invoke-atomicredteam-master folder into the AtomicRedTeam folder.
 Also sets the atomics folder into the AtomicRedTeam folder.
 
-![Image Description]()
+![Image Description](images/installing_ART1.png)
 
 
 Then, I installed the AtomicRedTeam
@@ -253,7 +253,7 @@ iii)
 Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 ```
 
-![Image Description]()
+![Image Description](images/installing_ART_by_powershell.png)
 
 
 
@@ -285,3 +285,4 @@ v)
 ```bash
 Invoke-AtomicTest T1030 -ShowDetailsBrief
 ```
+![Image Description](images/Screenshot_2026-06-07_17-31-25.png)
