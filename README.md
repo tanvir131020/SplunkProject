@@ -225,6 +225,11 @@ v) to see the Splunk forward server in the command
 .\splunk list forward-server
 ```
 
+vi) Check what is happening on port 9997 in the Linux machine
+```bash
+sudo netstat -tulnp | grep 9997
+```
+
 3️⃣. Sysmon Installation Process:
 
 I downloaded the Sysmon from the link & extracted it
