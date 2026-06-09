@@ -224,7 +224,7 @@ v) to see the Splunk forward server in the command
 ```bash
 .\splunk list forward-server
 ```
-
+![Image Description](images/Screenshot_202_06_09_22_04_04.png)
 vi) Check what is happening on port 9997 in the Linux machine
 ```bash
 sudo netstat -tulnp | grep 9997
