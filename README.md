@@ -270,8 +270,10 @@ Get-Service -Name Sysmon64
 
 ![Image Description](images/sysmon_on_windows.png)
 
+Now I have to create new index in index section 
 ![Image Description](images/Screenshot_from_2026-06-25_23-47-24.png)
 
+I created wineventlog in index 
 ![Image Description](images/Screenshot_from_2026-06-25_23-38-59.png)
 
 
