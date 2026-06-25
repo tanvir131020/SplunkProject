@@ -22,7 +22,7 @@ sudo dpkg -i splunk-10.2.3-4d61cf8a5c0c-linux-amd64.deb
 & also changed the ownership of the Splunk installation directory & everything
 inside it by the command. If there is any problem for the directory issue, then go to the root directory & apply it
 ```bash
-sudo chown -R tanvir13:tanvir13 /opt/splunk.
+sudo chown -R tanvir13:tanvir13 /opt/splunk
 ```
 The commands are in the snapshot
 ![Image Description](images/installing_splunk_on_linux.png)
