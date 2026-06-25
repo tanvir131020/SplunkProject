@@ -270,6 +270,11 @@ Get-Service -Name Sysmon64
 
 ![Image Description](images/sysmon_on_windows.png)
 
+![Image Description](images/Screenshot_from_2026-06-25_23-47-24.png)
+
+![Image Description](images/Screenshot_from_2026-06-25_23-38-59.png)
+
+
 I also checked Sysmon through Splunk Enterprise
 
 ![Image Description](images/checking_sysmon_in_splunk_enterprise(linux_machine).png)
