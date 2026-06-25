@@ -4,10 +4,12 @@
 Total Splunk Structure
 ![Image Description](images/splunk_structure.png)
 
+---
 🛠️ Splunk Setup
-
-
+---
+---
 1️⃣. Splunk Enterprise(Server) Installation Process :
+---
 
 a)​ First, I downloaded the .deb version for my Parrot OS from the website below
 
@@ -51,7 +53,10 @@ e) Then I typed the name & password & this interface was shown in the background
 
 ![Image Description](images/splunk_enterprise_dashboard_on_linux.png)
 
+---
 2️⃣. Splunk Universal Forwarder Installation Process:
+---
+
 
 a) I downloaded the Splunk universal forwarder .msi version for my Windows Server 2019 from this link
 
@@ -232,7 +237,10 @@ vi) Check what is happening on port 9997 in the Linux machine
 sudo netstat -tulnp | grep 9997
 ```
 
+---
 3️⃣. Sysmon Installation Process:
+---
+
 
 I downloaded the Sysmon from the link & extracted it
 
@@ -266,12 +274,20 @@ I also checked Sysmon through Splunk Enterprise
 
 ![Image Description](images/checking_sysmon_in_splunk_enterprise(linux_machine).png)
 
+
+---
 4️⃣. Showing Splunk Dashboard containing real-time logs from the Universal Forwarder Server.
+---
+
+
 
 ![Image Description](images/showing_dashborad_on_linux_machine.png)
 
 
+---
 5️⃣. ART (Atomic Red Team) Installation process:
+---
+
 
 I turned off all of the windows' security system(virus & threat protection settings)
 
