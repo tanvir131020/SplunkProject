@@ -105,6 +105,13 @@ Here, I placed the Splunk_TA_windows-10.0.1 folder into the Splunk Forwarder
 
 ![Image Description](images/Screenshot_2026-06-06_20-15-19.png)
 
+
+This is the location of the files 
+```bash
+C:\Program Files\SplunkUniversalForwarder\etc\system\local
+```
+
+
 This is an inputs.conf
 
 ![Image Description](images/inputs.conf.png)
