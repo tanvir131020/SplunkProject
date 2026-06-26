@@ -103,6 +103,12 @@ This is the inside of the Splunk_TA_windows-10.0.1 folder
 
 Here, I placed the Splunk_TA_windows-10.0.1 folder into the Splunk Forwarder
 
+& it's location
+
+```bash
+C:\Program Files\SplunkUniversalForwarder\etc\apps
+```
+
 ![Image Description](images/Screenshot_2026-06-06_20-15-19.png)
 
 
