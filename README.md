@@ -53,6 +53,17 @@ e) Then I typed the name & password & this interface was shown in the background
 
 ![Image Description](images/splunk_enterprise_dashboard_on_linux.png)
 
+Then I selected port 9997 in the receiving port of the splunk server
+![Image Description](images/receiving-port1.png)
+
+![Image Description](images/receving-port2.png)
+
+![Image Description](images/receiving-port3.png)
+
+![Image Description](images/receiving-port4.png)
+
+
+
 ---
 2️⃣. Splunk Universal Forwarder Installation Process:
 ---
